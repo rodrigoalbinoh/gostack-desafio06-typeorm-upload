@@ -1,10 +1,7 @@
-import path from 'path';
 import fs from 'fs';
 import { getCustomRepository, In, getRepository } from 'typeorm';
 import csvParse from 'csv-parse';
 import Transaction from '../models/Transaction';
-import uploadConfig from '../config/upload';
-import AppError from '../errors/AppError';
 import TransactionsRepository from '../repositories/TransactionsRepository';
 import Category from '../models/Category';
 
